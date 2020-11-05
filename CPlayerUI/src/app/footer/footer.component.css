@@ -1,7 +1,7 @@
 .foot{
     position: absolute;
     bottom: 0px;
-    width: 99%;
+    width: 100%;
     z-index: 2;
     color: #ff4081 !important;
     background-color:cadetblue !important;
