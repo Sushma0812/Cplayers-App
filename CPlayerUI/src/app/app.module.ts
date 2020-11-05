@@ -7,6 +7,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { RecommendedComponent } from './recommended/recommended.component';
+import { SearchComponent } from './search/search.component';
+import { FavouritesComponent } from './favourites/favourites.component';
+import { StatisticsComponent } from './statistics/statistics.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { RecommendedComponent } from './recommended/recommended.component';
     DashboardComponent,
     SignupComponent,
     LoginComponent,
-    RecommendedComponent
+    RecommendedComponent,
+    SearchComponent,
+    FavouritesComponent,
+    StatisticsComponent
   ],
   imports: [
     BrowserModule,
