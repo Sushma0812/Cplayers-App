@@ -10,6 +10,8 @@ import { RecommendedComponent } from './recommended/recommended.component';
 import { SearchComponent } from './search/search.component';
 import { FavouritesComponent } from './favourites/favourites.component';
 import { StatisticsComponent } from './statistics/statistics.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { StatisticsComponent } from './statistics/statistics.component';
     RecommendedComponent,
     SearchComponent,
     FavouritesComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
