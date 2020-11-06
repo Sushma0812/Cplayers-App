@@ -3,7 +3,7 @@
     bottom: 0px;
     width: 100%;
     z-index: 2;
-    color: #ff4081 !important;
+    color: #f31861 !important;
     background-color:cadetblue !important;
   }
   .icons{
@@ -14,8 +14,11 @@
   .copy{
     position: absolute;
     right: 10px;
-    font-size: 13px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
   }
   .foot-text{
-    font-size: medium;
+    
+    font-size: 20px;
+    
   }
