@@ -29,11 +29,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-<<<<<<< HEAD
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
-=======
-import { UserAuthentication } from './userAuthentication'
->>>>>>> e8b6a7ca9bd12f8a95feda623756e9b35726f240
 
 @NgModule({
   declarations: [
@@ -70,8 +66,7 @@ import { UserAuthentication } from './userAuthentication'
     BrowserAnimationsModule,
     MatToolbarModule,
     MatGridListModule,
-    MatMenuModule,
-  UserAuthentication
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent],
