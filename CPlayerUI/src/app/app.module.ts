@@ -29,6 +29,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { UserAuthentication } from './userAuthentication'
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatGridListModule,
-    MatMenuModule
+    MatMenuModule,
+  UserAuthentication
   ],
   providers: [],
   bootstrap: [AppComponent],
