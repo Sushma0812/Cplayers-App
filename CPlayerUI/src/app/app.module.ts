@@ -35,11 +35,9 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    SearchComponent,
-    
+    SearchComponent,    
     DashboardComponent,
-    SignupComponent,
-    
+    SignupComponent,    
     HeaderComponent,
     FooterComponent,
     EditProfileComponent,
