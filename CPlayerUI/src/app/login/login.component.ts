@@ -15,10 +15,10 @@ export class LoginComponent implements OnInit {
   userAuth: UserAuthentication = new UserAuthentication();
   loginflag: boolean;
 
-  
-  constructor (private route: RouterService, private auth: AuthenticationService) {  }
 
-  
+  constructor(private route: RouterService, private auth: AuthenticationService) { }
+
+
   ngOnInit(): void {
     if (sessionStorage.getItem('token') != null) {
       this.loginflag = true;
@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
     }
   }
 
-  
+
   loginForm = new FormGroup({
     email: new FormControl('', [Validators.required]),
     password: new FormControl('', [Validators.required, Validators.minLength(8)])
@@ -41,7 +41,7 @@ export class LoginComponent implements OnInit {
     return this.loginForm.get('password');
   }
 
-  
+
   logIn() {
     this.userAuth.username = this.loginForm.value.email;
     this.userAuth.password = this.loginForm.value.password;
@@ -58,9 +58,12 @@ export class LoginComponent implements OnInit {
       });
   }
 
-  
+
   tosignup() {
     this.route.tosignup();
   }
 
+  authenticateUser() {
+
+  }
 }

@@ -9,7 +9,6 @@ form{
     height: 55vh;
     margin-bottom: 10px;
 } 
-
 form div {
     display: flex;
     flex-direction: column;
@@ -37,12 +36,10 @@ form div button{
     margin: 2vh auto;
 
 }
-
 .but{
 
     flex-direction: row;
 }
-
 small{
     color: red;
     font-style: italic;
