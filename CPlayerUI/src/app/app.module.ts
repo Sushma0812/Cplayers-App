@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgxPaginationModule } from 'ngx-pagination'
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -76,8 +75,7 @@ import { StatviewComponent } from './statview/statview.component';
     MatGridListModule,
     MatMenuModule,
     NgxPaginationModule,
-    NgbModule,
-    NgxPaginationModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent],
