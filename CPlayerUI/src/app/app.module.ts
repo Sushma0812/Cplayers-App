@@ -22,7 +22,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { MatTabsModule } from '@angular/material/tabs';
-//import { SearchComponent } from './search/search.component';
+import { SearchComponent } from './search/search.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SignupComponent } from './signup/signup.component';
 import { MatGridListModule } from '@angular/material/grid-list';
@@ -42,6 +42,7 @@ import { StatviewComponent } from './statview/statview.component';
     AppComponent,
     LoginComponent,
     DashboardComponent,
+    SearchComponent,
     SignupComponent,    
     HeaderComponent,
     FooterComponent,
