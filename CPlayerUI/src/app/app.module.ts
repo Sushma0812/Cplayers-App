@@ -22,7 +22,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { MatTabsModule } from '@angular/material/tabs';
-import { SearchComponent } from './search/search.component';
+//import { SearchComponent } from './search/search.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SignupComponent } from './signup/signup.component';
 import { MatGridListModule } from '@angular/material/grid-list';
@@ -32,19 +32,23 @@ import { FooterComponent } from './footer/footer.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { StatisticsComponent } from 'src/app/statistics/statistics.component';
 import {NgxPaginationModule} from 'ngx-pagination';
+import { StatOpenerComponent } from './stat-opener/stat-opener.component';
+import { StatviewComponent } from './statview/statview.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    SearchComponent,    
     DashboardComponent,
     SignupComponent,    
     HeaderComponent,
     FooterComponent,
     EditProfileComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    StatOpenerComponent,
+    StatviewComponent,
   ],
   imports: [
     BrowserModule,
