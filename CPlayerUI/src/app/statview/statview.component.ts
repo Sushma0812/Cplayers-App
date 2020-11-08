@@ -13,7 +13,6 @@ export class StatviewComponent implements OnInit {
 
   stat :any;
 
-  // dependency injection of cricapi service and also using @Inject to specify that some the value is injected
   constructor(private diaRef: MatDialogRef<StatOpenerComponent>, @Inject(MAT_DIALOG_DATA) private data: any,
    private cric: CricapiService, private route :RouterService) { }
 
@@ -23,7 +22,6 @@ export class StatviewComponent implements OnInit {
       this.route.tologin();
     }
 
-    // call api to get all the stats of a particular player by his pid
     this.cric.statsPlayer(this.data.pid).subscribe(
       res => {
         this.stat = res
