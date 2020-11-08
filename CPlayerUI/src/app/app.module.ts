@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { NgxPaginationModule } from 'ngx-pagination'
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -30,6 +30,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,9 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatGridListModule,
-    MatMenuModule
+    MatMenuModule,
+    NgxPaginationModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent],

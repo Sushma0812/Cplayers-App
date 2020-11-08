@@ -1,51 +1,29 @@
-.foot{
-    position: fixed;
-    bottom: 0px;
+  .footer-sec
+{
+    text-align: center;
+    height:30%;
+    margin-bottom: 0%;
+    position: relative;
     width: 100%;
-    z-index: 2;
-    color: #f31861 !important;
-    background-color:cadetblue !important;
-    height: 13vh;
-  }
-  .icons{
-    margin-left: 10px;
-    height: 30px;
-    margin-bottom: 10px;
-  }
-  .icons h2{
-    text-align: center;
-    font-size: 120%;
-  }
-  .copy{
-    right: 10px;
-    font-size: 20px;
-    font-family: 'Dancing Script', cursive;
-    
-  }
-  .foot-text{    
-    font-size: 20px;
-  }  
-  .copy h3{
-    margin-top: 10%;
-    margin-left:80%;
-    font-size: 120%;
-  }
-  .reach{ 
-    margin-top: 10%;
-    right: 70px;
-    top:8%;
-    margin: 60%;
-    font-size: 100%;
-  }   
-  .iconsOne{
-    margin-left: 46%;
-    height: 30px;
-    margin-bottom: 10px;
-  }
-  .iconsOne h2{
-    text-align: center;
-    font-size: 120%;
-  }
-  .foot-textOne{    
-    font-size: 20px;
-  }
+}
+
+.icons{
+  margin-left: 10px;
+  height: 30px;
+}
+.icons h2{
+  text-align: center;
+}
+div .contact h2 {
+  padding-bottom: 2em;
+  line-height: normal;
+}
+marquee{
+  
+    color:crimson;
+    font-size: 1.5em;
+  
+}
+.footer{
+  background-color: cadetblue;
+}
