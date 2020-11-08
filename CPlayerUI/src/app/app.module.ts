@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -21,35 +20,46 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { NgxPaginationModule } from 'ngx-pagination';
 import { MatTabsModule } from '@angular/material/tabs';
 import { SearchComponent } from './search/search.component';
+import { StatisticsComponent } from './statistics/statistics.component';
+import { FavouritesComponent } from './favourites/favourites.component';
+import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SignupComponent } from './signup/signup.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { EditProfileComponent } from './edit-profile/edit-profile.component';
-import { StatisticsComponent } from 'src/app/statistics/statistics.component';
-import {NgxPaginationModule} from 'ngx-pagination';
+import { RecommendedComponent } from './recommended/recommended.component';
 import { StatOpenerComponent } from './stat-opener/stat-opener.component';
 import { StatviewComponent } from './statview/statview.component';
-
-
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+<<<<<<< HEAD
     DashboardComponent,
     SearchComponent,
     SignupComponent,    
     HeaderComponent,
     FooterComponent,
     EditProfileComponent,
+=======
+    SearchComponent,
+>>>>>>> 299ae2c7b41ae9a6968a79f08330a3972b6601da
     StatisticsComponent,
+    FavouritesComponent,
+    EditProfileComponent,
+    DashboardComponent,
+    SignupComponent,
+    RecommendedComponent,
     StatOpenerComponent,
     StatviewComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,6 +76,7 @@ import { StatviewComponent } from './statview/statview.component';
     MatSelectModule,
     MatSidenavModule,
     MatTabsModule,
+    NgxPaginationModule,
     RouterModule,
     FormsModule,
     AppRoutingModule,
@@ -73,10 +84,10 @@ import { StatviewComponent } from './statview/statview.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatGridListModule,
-    MatMenuModule,
-    NgxPaginationModule
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent],
+  entryComponents :[StatviewComponent]
 })
 export class AppModule { }
