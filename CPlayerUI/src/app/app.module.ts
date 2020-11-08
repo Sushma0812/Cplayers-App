@@ -40,16 +40,13 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     AppComponent,
     LoginComponent,
-<<<<<<< HEAD
     DashboardComponent,
     SearchComponent,
     SignupComponent,    
     HeaderComponent,
     FooterComponent,
     EditProfileComponent,
-=======
     SearchComponent,
->>>>>>> 299ae2c7b41ae9a6968a79f08330a3972b6601da
     StatisticsComponent,
     FavouritesComponent,
     EditProfileComponent,
