@@ -30,6 +30,9 @@ import { MatMenuModule } from '@angular/material/menu';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
+import { StatisticsComponent } from 'src/app/statistics/statistics.component';
+import {NgxPaginationModule} from 'ngx-pagination';
+
 
 @NgModule({
   declarations: [
@@ -41,6 +44,7 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
     HeaderComponent,
     FooterComponent,
     EditProfileComponent,
+    StatisticsComponent
   ],
   imports: [
     BrowserModule,
@@ -64,7 +68,8 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatGridListModule,
-    MatMenuModule
+    MatMenuModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent],
