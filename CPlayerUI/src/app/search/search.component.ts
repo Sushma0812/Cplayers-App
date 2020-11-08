@@ -44,50 +44,50 @@ export class SearchComponent implements OnInit {
   }
 
   getData(val) {
-    // console.log(val);
-    // this.cricapi.searchPlayer(val).subscribe(
-    //   res => {
-    //     this.list = res.data;
-    //     for (let obj of this.list) {
-    //       obj.status = true;
-    //     }
-    //   },
-    //   err => {
-    //     console.log(err)
-    //   })
+    console.log(val);
+    this.cricapi.searchPlayer(val).subscribe(
+      res => {
+        this.list = res.data;
+        for (let obj of this.list) {
+          obj.status = true;
+        }
+      },
+      err => {
+        console.log(err)
+      })
   }
 
   addToFav(data) {
-    // data.status = false;
-    // this.cricapi.statsPlayer(data.pid).subscribe(
-    //   res => {
-    //     this.fav = res;
-    //     this.recom = res;
-    //     this.fav.status = false;
-    //     this.fav.username = sessionStorage.getItem('username');
-    //     this.recomser.addData(this.recom, sessionStorage.getItem('token')).subscribe(
-    //       res => console.log("added to fav"),
-    //       err => console.log(err)
-    //     )
-    //     this.favser.addData(this.fav, sessionStorage.getItem('token')).subscribe(
-    //       res => console.log("added to recom"),
-    //       err => console.log(err)
-    //       )
-    //   },
-    //   err => console.log(err)
-    // )
+    data.status = false;
+    this.cricapi.statsPlayer(data.pid).subscribe(
+      res => {
+        this.favourites = res;
+        this.recom = res;
+        this.favourites.status = false;
+        this.favourites.username = sessionStorage.getItem('username');
+        this.recomser.addData(this.recom, sessionStorage.getItem('token')).subscribe(
+          res => console.log("added to fav"),
+          err => console.log(err)
+        )
+        this.favser.addData(this.favourites, sessionStorage.getItem('token')).subscribe(
+          res => console.log("added to recom"),
+          err => console.log(err)
+          )
+      },
+      err => console.log(err)
+    )
   }
 
   removeFromFav(data) {
-    // data.status = true;
-    // this.recomser.deleteData(data.pid, sessionStorage.getItem('token')).subscribe(
-    //   res => console.log("removed from fav"),
-    //   err => console.log(err)
-    // )
-    // this.favser.deleteDataUser(sessionStorage.getItem('username'), data.pid, sessionStorage.getItem('token')).subscribe(
-    //   res => console.log("removed from recom"),
-    //   err => console.log(err)
-    // )
+    data.status = true;
+    this.recomser.deleteData(data.pid, sessionStorage.getItem('token')).subscribe(
+      res => console.log("removed from fav"),
+      err => console.log(err)
+    )
+    this.favser.deleteDataUser(sessionStorage.getItem('username'), data.pid, sessionStorage.getItem('token')).subscribe(
+      res => console.log("removed from recom"),
+      err => console.log(err)
+    )
   }
 
 }
