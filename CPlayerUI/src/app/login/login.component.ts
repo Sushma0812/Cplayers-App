@@ -62,8 +62,4 @@ export class LoginComponent implements OnInit {
   tosignup() {
     this.route.tosignup();
   }
-
-  authenticateUser() {
-
-  }
 }
