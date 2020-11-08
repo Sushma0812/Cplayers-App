@@ -22,7 +22,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { MatTabsModule } from '@angular/material/tabs';
-import { SearchComponent } from './search/search.component';
+//import { SearchComponent } from './search/search.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SignupComponent } from './signup/signup.component';
 import { MatGridListModule } from '@angular/material/grid-list';
@@ -30,18 +30,29 @@ import { MatMenuModule } from '@angular/material/menu';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
+<<<<<<< HEAD
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+=======
+import { StatisticsComponent } from 'src/app/statistics/statistics.component';
+import {NgxPaginationModule} from 'ngx-pagination';
+import { StatOpenerComponent } from './stat-opener/stat-opener.component';
+import { StatviewComponent } from './statview/statview.component';
+
+
+>>>>>>> 386365cb7589daca5c727a872edeacaf18dd47f8
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    SearchComponent,    
     DashboardComponent,
     SignupComponent,    
     HeaderComponent,
     FooterComponent,
     EditProfileComponent,
+    StatisticsComponent,
+    StatOpenerComponent,
+    StatviewComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,8 +77,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatToolbarModule,
     MatGridListModule,
     MatMenuModule,
+<<<<<<< HEAD
     NgxPaginationModule,
     NgbModule
+=======
+    NgxPaginationModule
+>>>>>>> 386365cb7589daca5c727a872edeacaf18dd47f8
   ],
   providers: [],
   bootstrap: [AppComponent],
