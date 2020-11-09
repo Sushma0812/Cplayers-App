@@ -7,7 +7,9 @@ form{
     display: flex;
     flex-direction: column;
     height: 55vh;
-    margin-bottom: 10px;
+    /* margin-bottom: 1px; */
+     margin-left: 33.3%;
+    margin-right: 33.3%;
 } 
 form div {
     display: flex;
@@ -27,13 +29,13 @@ form div input{
 
 form div button{
     width : 35%;
-    /* background-color: rgba(25, 134, 130, 0.692); */
+     background-color: rgba(25, 134, 130, 0.692); 
     background-color: rgba(252, 244, 244, 0.616);
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.466);
     color: rgb(255, 255, 255);
-    height: 30px;
-    font-size: 13px;
+    height: 35px;
+    font-size: 12px;
     margin: 2vh auto;
 
 }
@@ -114,4 +116,7 @@ label{
       margin-top: 0%;
       margin-bottom: 0%;
   }
-  
+    
+
+
+    
