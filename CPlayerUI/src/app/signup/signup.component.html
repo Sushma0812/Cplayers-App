@@ -1,7 +1,7 @@
 <!-- Sign Up form -->
 
 <app-header></app-header>
-
+<div class="image">
 <div class="signup">Sign Up Form</div>
 <form [formGroup]="loginForm" (ngSubmit)="signIn()">
    <div>
@@ -49,5 +49,5 @@
       <button (click)="tologin()" value="log In">Already Registered</button>
    </div>
 </form>
-
+</div>
 <app-footer></app-footer>
