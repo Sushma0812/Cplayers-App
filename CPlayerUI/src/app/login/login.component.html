@@ -1,9 +1,9 @@
 <app-header></app-header>
 <div class="imge">
-<div class="login"> Login Form</div>
+
 
 <form [formGroup]="loginForm" (ngSubmit)="logIn()"> 
-
+    <div class="login"> Login Form</div>
     <div>
         <label for="email">Email</label>
         <input type="text" placeholder="Enter Email" formControlName="email">

@@ -2,8 +2,9 @@
 
 <app-header></app-header>
 <div class="imagee">
-<div class="signup">Sign Up Form</div>
+
 <form [formGroup]="loginForm" (ngSubmit)="signIn()">
+        <div class="signup">Sign Up Form</div>
    <div>
       <label for="email">Email</label>
       <input class="email" type="text" placeholder="  Enter email" formControlName="email"><br>
