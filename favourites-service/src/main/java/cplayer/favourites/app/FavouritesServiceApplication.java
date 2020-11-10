@@ -1,13 +1,13 @@
-package com.recommended;
+package cplayer.favourites.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RecommendedServiceApplication {
+public class FavouritesServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RecommendedServiceApplication.class, args);
+		SpringApplication.run(FavouritesServiceApplication.class, args);
 	}
 
 }
