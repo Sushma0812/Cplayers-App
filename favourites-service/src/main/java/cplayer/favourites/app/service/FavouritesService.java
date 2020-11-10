@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import cplayer.favourites.app.model.Favourites;
-import cplayer.favourites.app.repository.favouritesRepository;;
+import cplayer.favourites.app.repository.FavouritesRepository;;
 
 @Service
-public class favouritesService {
+public class FavouritesService {
 	@Autowired
-	private favouritesRepository favouritesRepository;
+	private FavouritesRepository favouritesRepository;
 
 	public List<Favourites> getAllData(String username) {
 		return (List<Favourites>) favouritesRepository.findByUsername(username);
