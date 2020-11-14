@@ -1,0 +1,43 @@
+.formTaker-Expansion{
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   margin-top: 0%;
+   margin: 2vh auto;
+   height:70%;
+   margin-bottom: 0%;
+   background-color: lavenderblush;
+
+}
+.buttn{
+   width: 50%;
+   margin: 2vh auto;
+   background-color: rgb(196, 185, 196);
+
+}
+.cardContainer{
+   display: flex;
+   flex-wrap: wrap;
+   background-color: lavenderblush;
+
+ }
+.card{
+   width: 200px;
+   margin: 15px;
+ }
+
+.pagination{
+   position: absolute;
+   margin-top: 30px;
+   margin-bottom: 60px;
+   right: 20px;
+   background-color: lavenderblush;
+ }
+ .button-pos{
+    position: relative;
+    margin: 2vh auto;
+ }
+
+.color{
+  background-color: lavenderblush;
+}
