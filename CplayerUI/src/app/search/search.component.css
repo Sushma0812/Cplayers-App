@@ -1,0 +1,45 @@
+ .formTaker-Expansion{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin-top: 0%;
+   margin: 2vh auto;
+   height:70%;
+   margin-bottom: 0%;
+   background-color: rgba(89, 240, 240, 0.1)
+
+}
+
+.buttn{
+   width: 50%;
+   margin: 2vh auto;
+   background-color: rgb(196, 185, 196);
+
+}
+.cardContainer{
+   display: flex;
+   flex-wrap: wrap;
+   background-color:darkcyan;
+
+ }
+.card{
+   width: 200px;
+   margin: 15px;
+ }
+
+.pagination{
+   position: absolute;
+   margin-top: 30px;
+   margin-bottom: 60px;
+   right: 20px;
+   /* background-color: lavenderblush; */
+   background-color: rgba(120, 236, 236, 0.1)
+ }
+ .button-pos{
+    position: relative;
+    margin: 2vh auto;
+ }
+/* 
+.color{
+  background-color: lavenderblush;
+} */

@@ -1,0 +1,45 @@
+ .but{
+    padding-right:3em;
+    margin-left:85%;
+    
+}
+.butOne{
+    padding-right:5em;
+}
+.but button{
+    border-radius:15px;
+}
+.butOne button{
+    border-radius:30px;
+}
+.pos{
+    background-color:cadetblue;
+}
+
+.but button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#navbarSupportedContent{
+    align-content:center;
+}
+.pos span{
+    font-size: 2em;
+    color: white
+}
+.card-text img{
+    
+    height:30vh;
+    width:20vw;    
+    
+}
+.container{
+    margin-top:10px;
+}
+.jumbotron{
+    margin-top: 10px;
+    background-color: ghostwhite !important;
+}
+.lead{
+    margin-left: 5%;
+}
