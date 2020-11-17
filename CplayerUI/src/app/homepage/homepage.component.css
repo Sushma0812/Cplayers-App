@@ -1,17 +1,19 @@
  .but{
-    padding-right:3em;
+    padding-right:2em;
     margin-left:85%;
     
 }
-.butOne{
+/* .butOne{
     padding-right:5em;
-}
+} */
 .but button{
     border-radius:15px;
+    padding-inline-end:1em;
+
 }
-.butOne button{
+/* .butOne button{
     border-radius:30px;
-}
+} */
 .pos{
     background-color:cadetblue;
 }
@@ -22,6 +24,8 @@
 }
 #navbarSupportedContent{
     align-content:center;
+    margin-left: 6%;
+    padding: 0.5em;
 }
 .pos span{
     font-size: 2em;
@@ -39,6 +43,7 @@
 .jumbotron{
     margin-top: 10px;
     background-color: ghostwhite !important;
+    
 }
 .lead{
     margin-left: 5%;

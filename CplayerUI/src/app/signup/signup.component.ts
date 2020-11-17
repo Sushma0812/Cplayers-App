@@ -29,7 +29,7 @@ export class SignupComponent implements OnInit {
     password: new FormControl('', [Validators.required, Validators.minLength(8)]),
     name: new FormControl('', [Validators.required]),
     mobile: new FormControl('', [Validators.required, Validators.minLength(10), Validators.maxLength(10)]),
-    confirmpassword: new FormControl('', [Validators.required, Validators.minLength(8)]),
+   // confirmpassword: new FormControl('', [Validators.required, Validators.minLength(8)]),
 
   })
 
@@ -45,10 +45,10 @@ export class SignupComponent implements OnInit {
   get mobile() {
     return this.loginForm.get('mobile');
   }
-  get confirmpassword(){
-    return this.loginForm.get('password');
+  // get confirmpassword(){
+  //   return this.loginForm.get('password');
 
-  }
+  // }
 
   // sign in by calling the user and userauth services
   signIn() {

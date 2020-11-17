@@ -46,7 +46,7 @@ export class DashboardComponent implements OnInit{
   // log Out any logged in user 
   logout(){
     sessionStorage.clear();
-    this.route.tologin();
+    this.route.tohomepage();
   }
   collapsed(){
     document.querySelector("#navbarSupportedContent").classList.toggle("collapse");
