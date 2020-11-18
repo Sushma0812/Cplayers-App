@@ -1,0 +1,63 @@
+ .but{
+    padding-right:2em;
+    margin-left:85%;
+    
+}
+/* .butOne{
+    padding-right:5em;
+} */
+.but button{
+    border-radius:15px;
+    padding-inline-end:1em;
+
+}
+/* .butOne button{
+    border-radius:30px;
+} */
+.pos{
+    background-color:cadetblue;
+   position:fixed;
+    width: 100%;
+    margin-bottom: 2%;
+    
+}
+
+.but button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#navbarSupportedContent{
+    align-content:center;
+    margin-left: 6%;
+    padding: 0.5em;
+}
+.pos span{
+    font-size: 2em;
+    color: white
+}
+.card-text img{
+    
+    height:30vh;
+    width:20vw;    
+  
+}
+;2ei
+
+.jumbotron{  
+    background-color: ghostwhite !important;  
+}
+
+.lead{
+    margin-left: 5%;
+    
+}
+
+.jcontainer h1{
+    margin-top: 5vh;
+
+}
+
+.cards{
+    position: relative;
+}
+
